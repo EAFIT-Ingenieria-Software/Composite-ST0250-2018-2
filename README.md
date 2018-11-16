@@ -4,6 +4,9 @@ Composite es un patrón que promueve el desarrollo de código por agrupamiento d
 Juan Camilo Echeverri
 Santiago Tello
 
+##las casas no están hecha de una pieza, si observamos las paredes están echas de pequeñas piezas “ladrillos”, entonces, el conjunto de estos ladrillos crea paredes, y un conjunto de paredes crean una casa. Por ende, es necesario usar el patrón de diseño Composite ya que básicamente lo que me propone es construir estructuras complejas partiendo de estructuras mas simpes y mas pequeñas 
+
+
 
 ```java
 public interface Terreno {
