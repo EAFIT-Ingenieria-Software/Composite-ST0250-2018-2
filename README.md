@@ -75,3 +75,11 @@ public class Terrenos {
 
 }
 ```
+## Descripcion del codigo
+El código la verdad es muy sencillo y mas aun muy sencillo de entender, el Terreno es una interfaz que solo tiene una operación y es la de construir. Terreno es extendido por las otras clases que son “Ladrillo” y “Construcción”.
+Ladrillo es la parte mas simple de la estructura es lo que conlleva a las pequeñas piezas que conforman la estructura, este tiene una operación y es la de “colocar un ladrillo” básicamente ir construyendo o en el caso del programa “construir”, este hereda de Terreno.
+Construcción, tiene métodos de añadir, remover y construir, esto nos permite agregar o remover objetos de tipo “Terreno” y como “Terreno” es una interfaz lo que podemos agregar es objetos de tipo “Construccion” y tipo “ladrillo”.
+
+## Webgrafia
+
+https://www.oscarblancarteblog.com/2014/10/07/patron-de-diseno-composite/
